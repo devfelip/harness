@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: poc-harness
+  name: <+pipeline.variables.namespace>
   labels:
     purpose: poc
     managed-by: harness
