@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: poc-harness
+  labels:
+    purpose: poc
+    managed-by: harness
